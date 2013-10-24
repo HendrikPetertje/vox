@@ -1,0 +1,659 @@
+/* Cascedian style sheets for the Vox website theme. © Pico reclame 2013 all rights reserved. check www.picoreclame.nl for info an contact */
+
+html, body {
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+	background: url(images/noise.png) repeat;
+	font-size: 0.9em;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	color: #222;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin: 0;
+	color: #A68331;
+	font-size: 1.55em
+}
+
+h2 {
+	text-transform: uppercase;
+	margin: 0;
+	color: #A68331;
+	font-size: 1.55em
+}
+
+h3 {
+	margin: 0;
+	color: #A68331;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+a {
+	color: #92712D;
+}
+
+a:hover {
+	color: #BEAA81;
+}
+
+a:visited {
+	color: #92712D;
+}
+
+button {
+	background-color:#29393F;
+	border:0;
+	color:#fff;
+	padding:5px;
+	margin-top: 2px;
+}
+
+.second-rent-picture {
+	margin-top:10px;
+	overflow: hidden;
+	height: 152px;
+}
+
+.second-rent-picture img {
+	width: 650px;
+}
+
+img {
+	border: 0;
+}
+
+
+/*	Base grid for most devices*/
+
+/* Header */
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.cleardiv {
+	clear: both;
+}
+
+.headerblock-picture {}
+
+.headerblock-logo {
+	position: absolute;
+	top: 20px;
+	margin-left: 20px;
+}
+
+#headerblock-logo {
+	display: none;
+}
+
+.navigationcontainer {
+	width: 350px;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	background: url(images/navigation-bg.png) no-repeat;
+	font-size: 14px;
+	position: absolute;
+	top: 170px;
+	right: 10px;
+	display: none;
+}
+
+.navigationcontainer a {
+	color: #DFD6AD;
+	text-decoration: none;
+}
+
+.navigationcontainer a:hover {
+	color: #92712D;
+	text-decoration: none;
+}
+
+.navigationcontainer ul {
+	padding: 0;
+	margin: 0;
+	list-style-type:none; 
+}
+
+.navigationcontainer ul li {
+	float: left;
+	padding: 7px 13px;
+	background: url(images/nav-item-bg.png) no-repeat right;
+}
+
+.navigationcontainer .nav-selected {
+	color: #92712D;
+}
+
+.prenav {
+	height: 30px;
+	width: 2px;
+	background: url(images/nav-item-bg.png) no-repeat right;
+	float: left;
+	margin-left: 13px;
+}
+
+/* Maincontent */
+
+.maincontainer {
+}
+
+.block {
+	float: left;
+}
+
+.firstrow {
+	display: none;
+	margin-top: 20px;
+}
+
+.firstpic {
+	width: 290px;
+	height: 250px;
+}
+
+.first-text {
+	width: 340px;
+	margin-left: 20px;
+	text-align: justify;
+}
+
+.first-text-image {
+	height: 112px;
+	overflow: hidden;
+}
+
+.first-text-image img {
+	width: 340px;
+	margin-top: -70px;
+}
+
+.first-news {
+	width: 290px;
+/*	height: 250px;*/
+	overflow: hidden;
+	margin-left: 20px;
+	text-align: justify;
+}
+
+.newsitem {
+	width:290px;
+	float:left;
+}
+
+.newsitem-first {
+	margin-bottom: 10px;
+}
+
+/* hire and contact row*/
+
+.secondrow {
+	margin-top: 20px;
+	display: none;
+}
+
+.second-rent {
+	width: 650px;
+	text-align: justify;
+}
+
+.second-contact {
+	width: 280px;
+	margin-left:20px;
+}
+
+.contact-field {
+	width:261px;
+}
+
+.contact-textblock {
+	height: 87px;
+}
+
+/* Featured row */
+
+.thirdrow {
+	margin-top: 20px;
+	display: none;
+}
+
+.featured-title {
+	width: 960px
+}
+
+.featured {
+	width: 225px;
+	text-align:justify;
+}
+
+.featured img {
+	width: 224px;
+}
+
+.featured-pic {
+	margin-top: 10px;
+}
+
+.featured-first {
+	margin-right: 20px;
+}
+
+.featured-second {
+	margin-right: 20px;
+}
+
+.featured-third {
+	margin-right: 20px;
+}
+
+/* footer */
+
+.footercontainer {
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	padding: 2px 0 2px 0;
+	background-color: #92712D;
+	margin: 20px 0 0 0 ;
+	font-size: 0.85em;
+	display:none;
+}
+
+.footercontainer a {
+	color: #DDD;
+	text-decoration: none;
+}
+
+/* #Tablet (portrait)
+======================= */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	/* Main Elements */
+	.container {
+		width: 740px;
+	}
+	
+	/* Header elements */
+	.headerblock-picture img {
+		width: 740px;
+	}
+
+	.headerblock-logo img {
+		width: 277px;
+	}
+
+	.navigationcontainer {
+		top: 124px;
+	}
+
+	/* First row */
+	.first-text {
+		width: 430px;
+	}
+
+	.first-text-image {
+		height: 133px;
+	}
+
+	.first-text-image img {
+		width: 430px;
+		margin-top: -110px;
+	}
+
+	/* Second Row */
+
+	.first-news {
+		width:740px;
+		height: auto;
+		margin: 20 0 0 0;
+	}
+
+	.spacedif20 {
+		width: 20px;
+		height: 50px;
+		float: left;
+	}
+
+	.newsitem {
+		width: 360px;
+	}
+
+	.newsitem-first {
+		margin-bottom: 0;
+	}
+
+	.second-rent {
+		width: 740px;
+	}
+
+	.second-rent-picture {
+		overflow: hidden;
+		height: 250px;
+	}
+
+	.second-rent-picture img {
+		width: 740px;
+	}
+
+	.second-contact {
+		width: 740px;
+		margin: 20px 0 0 0;
+	}
+
+	.contact-field {
+		width:740px;
+	}
+
+	.contact-textblock {
+		height: 150px;
+	}
+
+	/* Featured-block */
+	
+	.featured-title {
+		width:740px;
+	}
+
+	.featured {
+		width: 360px;
+		text-align:justify;
+	}
+
+	.featured-second {
+		margin-right: 0;
+	}
+
+	.featured img {
+		width: 360px;
+	}
+
+
+}
+
+/* #Mobile (Landscape)
+======================= */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* Main Elements */
+	.container {
+		width: 450px;
+	}
+
+	/* Header elements */
+	.headerblock-picture {
+		width: 450px;
+		overflow-x: hidden;
+	}
+
+	.headerblock-picture img {
+		width: 760px;
+	}
+
+	.headerblock-logo img {
+		width: 276px;
+	}
+
+	.headerblock-logo {
+		left: 87px;
+	}
+
+	.navigationcontainer {
+		top: 128px;
+	}
+
+	.navigationcontainer {
+		position: relative;
+		top: 0;
+		margin: 10px auto 0 auto;
+	}
+
+	.firstpic {
+		width: 450px;
+		height: 388px;
+	}
+
+	.firstpic img {
+		width: 450px;
+		height: 388px;
+	}
+
+	.first-text {
+		width: 450px;
+		margin-left:0;
+	}
+
+	.first-text-image img {
+		width: 450px;
+	}
+
+	.first-news {
+		width: 450px;
+		margin-left: 0;
+	}
+
+	.newsitem {
+		width: 215px;
+	}
+
+	.newsitem-first {
+		margin-right: 20px;
+	}
+
+	.second-rent {
+		width: 450px;
+	}
+
+	.second-rent-picture {
+		overflow: hidden;
+		height: 250px;
+	}
+
+	.second-rent-picture img {
+		width: 450px;
+	}
+
+	.second-contact {
+		width: 450px;
+		margin: 20px 0 0 0;
+	}
+
+	.contact-field {
+		width:450px;
+	}
+
+	.contact-textblock {
+		height: 200px;
+	}
+
+	/* Featured-block */
+	
+	.featured-title {
+		width:450px;
+	}
+
+	.featured {
+		width: 450px;
+		text-align:justify;
+	}
+
+	.featured-second {
+		margin-right: 0;
+	}
+
+	.featured-third {
+		margin-right: 0;
+	}
+
+	.featured img {
+		width: 450px;
+	}
+
+ }
+/* #Mobile (portrait)
+======================= */
+ @media only screen and (min-width: 300px) and (max-width: 479px) {
+ 	
+ 	/* Main Elements */
+	.container {
+		width: 300px;
+	}
+
+	.headerblock-picture {
+		width: 300px;
+		overflow-x: hidden;
+	}
+
+	.headerblock-picture img {
+		width: 600px;
+	}
+
+	.headerblock-logo img {
+		width: 200px;
+	}
+
+	.headerblock-logo {
+		left: 35px;
+	}
+
+	.navigationcontainer {
+		top: 128px;
+	}
+
+	.navigationcontainer {
+		position: relative;
+		top: 0;
+		margin-top: 10px;
+		background: url(images/spacer.png) no-repeat #000;
+		height: 120px;
+		width: 300px;
+		margin-left:10px;
+
+	}
+
+	.navigationcontainer ul li {
+		float: none;
+		margin: 0;
+		text-align: center;
+		background: url(images/spacer.png) no-repeat right;
+	}
+
+	.prenav {
+		display: none;
+	}
+
+	.firstpic {
+		width: 300px;
+		height: 259px;
+	}
+
+	.firstpic img {
+		width: 300px;
+		height: 259px;
+	}
+
+	.first-text {
+		width: 300px;
+		margin-left:0;
+	}
+
+	.first-text-image img {
+		width: 300px;
+	}
+	
+	.first-news {
+		width: 300px;
+		margin-left: 0;
+	}
+
+	.newsitem {
+		width: 300px;
+	}
+
+	.newsitem-first {
+		margin-right: 0px;
+	}
+
+	.second-rent {
+		width: 300px;
+	}
+
+	.second-rent-picture {
+		overflow: hidden;
+		height: 170px;
+	}
+
+	.second-rent-picture img {
+		width: 300px;
+	}
+
+	.second-contact {
+		width: 300px;
+		margin: 20px 0 0 0;
+	}
+
+	.contact-field {
+		width:300px;
+	}
+
+	.contact-textblock {
+		height: 100px;
+	}
+
+	/* Featured-block */
+	
+	.featured-title {
+		width:300px;
+	}
+
+	.featured {
+		width: 300px;
+		text-align:justify;
+	}
+
+	.featured-second {
+		margin-right: 0;
+	}
+
+	.featured-third {
+		margin-right: 0;
+	}
+
+	.featured img {
+		width: 300px;
+	}
+
+	#headerblock-logo {
+		display: block;
+	}
+
+	.navigationcontainer {
+		display: block;
+	}
+
+	.firstrow {
+		display: block;
+	}
+
+	.secondrow {
+		display: block;
+	}
+
+	.thirdrow {
+		display: block;
+	}
+
+	.footercontainer {
+		display: block;
+	}
+
+ }
