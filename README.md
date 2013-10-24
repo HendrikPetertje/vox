@@ -15,6 +15,11 @@ Interesed in this work, other products by Pico Reclame / Pico Webdevelopement or
  - Contact
  - Newspage
 
+## Live pages
+
+ Pages can be seen live at [www.vox.picoreclame.nl][3]
+
  
   [1]: http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png
   [2]: http://www.picoreclame.nl
+  [3]: http://www.vox.picoreclame.nl
