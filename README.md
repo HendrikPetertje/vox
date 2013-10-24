@@ -6,5 +6,15 @@ This product is licensed under the Atribution-NONComercial-NoDerivs creative com
 
 Interesed in this work, other products by Pico Reclame / Pico Webdevelopement or interesed in your own website / internetplatform? check [www.picoreclame.nl][2] for more info!
 
+##Pages in progress
+
+ - Homepage
+ - Verenigingen (assosiations)
+ - Zaal huren (rent a converence room)
+ - Sponsoren (sponsoring)
+ - Contact
+ - Newspage
+
+ 
   [1]: http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png
   [2]: http://www.picoreclame.nl
