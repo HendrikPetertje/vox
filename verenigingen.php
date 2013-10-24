@@ -1,4 +1,4 @@
-<?php include 'partial/header.php'; ?>
+<?php include 'header.php'; ?>
 
 <!-- Maincontent -->
 <div class="container maincontainer">
@@ -83,10 +83,4 @@
 
 </div>
 
-<!-- Footer -->
-<div class="footercontainer">
-© Sociëteit Vox 2013    -     powered by <a href="http://www.picoreclame.nl">Pico Reclame</a>
-</div>
-
-</body>
-</html>
+<?php include 'footer.php'; ?>
