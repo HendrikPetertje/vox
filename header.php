@@ -24,7 +24,7 @@
 		    <li class="nav-selected nav-path-selected">
 		    <a href="/" target="_self" class="nav-selected nav-path-selected">Welkom</a></li>
 
-		    <li class=""><a href="#" target="_self" class="">De Stichting</a></li>
+		    <li class=""><a href="/verenigingen" target="_self" class="">Verenigingen</a></li>
 
 		    <li class=""><a href="#" target="_self" class="">Foto's</a></li>
 

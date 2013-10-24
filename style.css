@@ -151,6 +151,10 @@ img {
 	float: left;
 }
 
+.block-right {
+	float: right;
+}
+
 .firstrow {
 	display: none;
 	margin-top: 20px;
@@ -273,6 +277,51 @@ img {
 	text-decoration: none;
 }
 
+
+/*Verenigingen page*/
+
+.vereniging-intro {
+	width: 960px
+	text-align: justify;
+}
+
+.verenigingsfoto {
+	width: 200px;
+}
+
+.verenigingsfoto img {
+	width: 200px;
+}
+
+.vereniging1-intro {
+	width: 740px;
+	text-align: justify;
+	margin-left: 20px;
+}
+
+.vereniging2-intro {
+	width: 740px;
+	text-align: justify;
+	margin-right: 20px;
+}
+
+.vereniging2-intro h2 {
+	text-align: right;
+}
+
+.vereniging1-intro h2 {
+	text-align: left;
+}
+
+.verenigingcontactform {
+	width: 270px;
+	margin-right: 20px;
+}
+
+.vereniging-footerimg img {
+	width: 670px
+}
+
 /* #Tablet (portrait)
 ======================= */
 
@@ -375,6 +424,27 @@ img {
 
 	.featured img {
 		width: 360px;
+	}
+
+	.vereniging1-intro {
+		width: 520px;
+		text-align: justify;
+		margin-left: 20px;
+	}
+
+	.vereniging2-intro {
+		width: 520px;
+		text-align: justify;
+		margin-right: 20px;
+	}
+
+	.verenigingcontactform {
+		width: 740px;
+		margin-right: 0;
+	}
+
+	.vereniging-footerimg img {
+		width: 740px
 	}
 
 
@@ -496,6 +566,35 @@ img {
 
 	.featured img {
 		width: 450px;
+	}
+
+	.verenigingsfoto {
+		width: 50px;
+	}
+
+	.verenigingsfoto img {
+		width: 50px;
+	}	
+
+	.vereniging1-intro {
+		width: 380px;
+		text-align: justify;
+		margin-left: 20px;
+	}
+
+	.vereniging2-intro {
+		width: 380px;
+		text-align: justify;
+		margin-right: 20px;
+	}
+
+	.verenigingcontactform {
+		width: 450px;
+		margin-right: 0;
+	}
+
+	.vereniging-footerimg img {
+		width: 450px
 	}
 
  }
@@ -654,6 +753,35 @@ img {
 
 	.footercontainer {
 		display: block;
+	}
+
+	.verenigingsfoto {
+		width: 300px;
+	}
+
+	.verenigingsfoto img {
+		width: 300px;
+	}
+
+	.vereniging1-intro {
+		width: 300px;
+		text-align: justify;
+		margin-left: 0;
+	}
+
+	.vereniging2-intro {
+		width: 300px;
+		text-align: justify;
+		margin-left: 0;
+	}
+
+	.verenigingcontactform {
+		width: 300px;
+		margin-right: 0;
+	}
+
+	.vereniging-footerimg img {
+		width: 300px
 	}
 
  }
