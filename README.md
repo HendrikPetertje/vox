@@ -8,8 +8,8 @@ Interesed in this work, other products by Pico Reclame / Pico Webdevelopement or
 
 ##Pages in progress
 
- - Homepage
- - Verenigingen (assosiations)
+ - Homepage -done
+ - Verenigingen (assosiations) -done
  - Zaal huren (rent a converence room)
  - Sponsoren (sponsoring)
  - Contact
