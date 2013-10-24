@@ -17,9 +17,10 @@ Interesed in this work, other products by Pico Reclame / Pico Webdevelopement or
 
 ## Live pages
 
- Pages can be seen live at [www.vox.picoreclame.nl][3]
+ Pages can be seen live at [www.vox.picoreclame.nl/default.php][3] and [www.vox.picoreclame.nl/verenigingen.php][4]
 
  
   [1]: http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png
   [2]: http://www.picoreclame.nl
-  [3]: http://www.vox.picoreclame.nl
+  [3]: http://www.vox.picoreclame.nl/default.php
+  [4]: http://www.vox.picoreclame.nl/verenigingen.php
